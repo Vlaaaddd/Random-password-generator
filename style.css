@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: #264653;
+  display: flex;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 0.3px;
+  line-height: 3rem;
+  margin-bottom: 0.5em;
+}
+
+span {
+  color: #e9c46a;
+}
+
+.container p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.container {
+  margin-top: 5%;
+  width: 45%;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+}
+
+#measure {
+  display: block;
+  margin-bottom: 2em;
+  background-color: #e9c46a;
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+}
+
+.design {
+  width: 170px;
+  height: 30px;
+  background-color: #273549;
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.design:hover {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 1.5em;
+  max-width: 750px;
+}
+
+.middle {
+  padding-bottom: 2em;
+  border-bottom: 2px solid red;
+  max-width: 750px;
+}
+
+.one {
+  display: flex;
+  gap: 1.5em;
+}
+
+.button-design {
+  background-color: #e9c46a;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+}
+
+.button-design:hover {
+  box-shadow: 0px 0px 15px #fff;
+  color: #fff;
+}
+
+.dimension {
+  width: 170px;
+}
